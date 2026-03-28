@@ -30,6 +30,10 @@ const localeMapping = new Map(
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en", "zh-Hans"],
+  },
   i18n,
   title: 'Jest',
   titleDelimiter: '·',
